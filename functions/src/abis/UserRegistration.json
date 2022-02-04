@@ -1,0 +1,48 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "code",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "phoneNumberHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "finishVerification",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newUserAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "codeHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "phoneNumberHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "startVerification",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
