@@ -20,7 +20,7 @@ export const cors = require('cors')({
 // });
 
 export const randomString = (length:number): string => {
-  const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+  const alphabet = '1234567890'// 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
   const alphabet_length = alphabet.length - 1;
   let password = "";
   for (let i = 0; i < length; i++) {

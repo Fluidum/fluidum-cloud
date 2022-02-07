@@ -1,4 +1,16 @@
 {
+  "targets": {
+    "fluidum-eth": {
+      "hosting": {
+        "fluidum-eth": [
+          "fluidum-eth"
+        ],
+        "test-fluidum-eth": [
+          "test-fluidum-eth"
+        ]
+      }
+    }
+  },
   "projects": {
     "default": "fluidum-eth"
   }
